@@ -22,7 +22,7 @@ end
 begin
   opt_parser.parse!
   mandatory = [:path,:host]
-  missing = mandatory.select{ |param| options[param].nil? }
+  missing = mandatory.select{ |missing_opt| options[missing_opt].nil? }
   if not missing.empty?
     puts "Missing Options: #{missing.join(', ')}"
     puts opt_parser
