@@ -1,0 +1,30 @@
+The Level3CacheClear tool provides easy access to the Level 3 HTTP Invalidation REST API.
+
+Requires the following gems:
+
+openssl
+base64
+httparty
+builder
+optparse
+
+Usage is simple.  Create a file in the same directory named secretfile and add your Level 3 API key, secret,
+and scope to this file.  Note that the scope does not include the Level 3 host property.
+
+Formatting should be as follows.
+key=yourkey
+secret=yoursecret
+scope=yourscope (with no leading or trailing "/")
+
+Run the script from the command line with the -p and -h options.
+
+ -p is the path to invalidate
+ -h is the host (or property) at Level 3
+
+Example: ./invalidator -p /path/to/invalidate -h hostname.com
+
+Enjoy!
+
+-Jeremy
+
+This file was modified by JetBrains RubyMine 4.0.3 for binding GitHub repository
