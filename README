@@ -8,13 +8,14 @@ httparty
 builder
 optparse
 
-Usage is simple.  Create a file in the same directory named secretfile and add your Level 3 API key, secret,
-and scope to this file.  Note that the scope does not include the Level 3 host property.
+Usage is simple.  Modify secretfile to include all of your Level 3 account specific information.
 
-Formatting should be as follows.
+Formatting should be as follows.  See the samples in secretfile for more details.  Note that the scope does not include the Level 3 host property.
 key=yourkey
 secret=yoursecret
 scope=yourscope (with no leading or trailing "/")
+
+
 
 Run the script from the command line with the -p and -h options.
 
