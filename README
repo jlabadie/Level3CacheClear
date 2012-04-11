@@ -1,4 +1,4 @@
-The Level3CacheClear tool provides easy access to the Level 3 HTTP Invalidation REST API.
+The Level3CacheClear tool provides easy access to the Level 3 HTTP Cache Invalidation REST API.
 
 Requires the following gems:
 
@@ -21,10 +21,8 @@ Run the script from the command line with the -p and -h options.
  -p is the path to invalidate
  -h is the host (or property) at Level 3
 
-Example: ./invalidator -p /path/to/invalidate -h hostname.com
+Example: ./CacheClear -p /path/to/invalidate -h hostname.com
 
 Enjoy!
 
 -Jeremy
-
-This file was modified by JetBrains RubyMine 4.0.3 for binding GitHub repository
