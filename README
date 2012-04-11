@@ -21,7 +21,7 @@ Run the script from the command line with the -p and -h options.
  -p is the path to invalidate
  -h is the host (or property) at Level 3
 
-Example: ./CacheClear -p /path/to/invalidate -h hostname.com
+Example: ./cacheclear -p /path/to/invalidate -h hostname.com
 
 Enjoy!
 

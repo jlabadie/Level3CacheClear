@@ -10,7 +10,7 @@ require 'optparse'
 ## Setup OptionParser to create friendly output, and look for command line options.
 command_options = {}
 opt_parser = OptionParser.new do |opts|
-  opts.banner = "Usage: CacheClear [options]"
+  opts.banner = "Usage: cacheclear [options]"
   opts.separator  ""
   opts.separator  "Options"
   opts.on("-p","--path PATH","Path to Invalidate") do |p|
