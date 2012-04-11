@@ -1,6 +1,6 @@
 #!/usr/local/bin/ruby
 
-## Include required gems.
+## Include required modules and gems.
 require 'openssl'
 require 'base64'
 require 'httparty'

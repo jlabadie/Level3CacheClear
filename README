@@ -1,6 +1,6 @@
 The Level3CacheClear tool provides easy access to the Level 3 HTTP Cache Invalidation REST API.
 
-Requires the following gems:
+Requires the following modules and gems:
 
 openssl
 base64
