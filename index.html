@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Level3CacheClear : Cache clearing script for the Level 3 REST API, written in ruby." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Level3CacheClear</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jlabadie/Level3CacheClear">View on GitHub</a>
+
+          <h1 id="project_title">Level3CacheClear</h1>
+          <h2 id="project_tagline">Cache clearing script for the Level 3 REST API, written in ruby.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/jlabadie/Level3CacheClear/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/jlabadie/Level3CacheClear/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>What is Level3CacheClear?</h3>
+
+<p>Level3CacheClear is a script that makes it easy to invalidate cached HTTP objects that are served using the CDN service from Level 3.  The script can be called from a command line, or easily called as part of a job.</p>
+
+<h3>Getting it working.</h3>
+
+<p>...Is simple.  </p>
+
+<ol>
+<li>Download Download and extract the package.<br>
+</li>
+<li>Make sure you have execute permissions on cacheclear</li>
+<li>Make sure the appropriate gems are installed.<br><code>
+openssl  
+base64  
+httparty  
+builder  
+optparse
+</code>
+</li>
+<li>Update the secretfile with your Level 3 API information.</li>
+</ol><p>Thats it!  Now just run the script,</p>
+
+<p>./cacheclear -p /your/path/to/clear -h hostname</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Level3CacheClear maintained by <a href="https://github.com/jlabadie">jlabadie</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-30793147-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
